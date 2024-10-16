@@ -1,0 +1,78 @@
+body { 
+    background-color: whitesmoke;
+    width: 100vh;
+}
+h2 {
+    font-family: "Poppins", sans-serif;
+    color: rgb(48, 48, 48);
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+    position: relative;
+    right: -60px;
+}
+
+button {
+    position:relative;
+    top: -40px;
+    right:-1800px;
+    color: rgb(37, 37, 37);
+    background-color: transparent;
+}
+
+button:hover {
+    color: #5d55d4;
+}
+
+#sobre {
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+}
+
+#sobre:hover {
+    color: #5d55d4;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:before {
+    color:currentColor;
+}
+
+a:visited {
+    color: rgb(37, 37, 37);;
+}
+
+#formacao {
+    right: -1630px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+}
+
+#contato {
+    right: -1440px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 17px;
+}
+
+hr {
+    position: relative;
+    left:-10px;
+    top: -40px;
+    width: 100vw;
+    filter:blur(0.9px);
+    border-color: lightgray;
+    opacity: 0.2;
+}
+
