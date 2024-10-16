@@ -1,16 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
 body { 
     background-color: #202123;
-    margin: 0;
-    font-family: "Poppins", sans-serif; 
-    display: flex;
-    flex-direction: column; 
+    font-family: "Poppins", sans-serif;  
+    line-height: 1.6;
 }
 
 header {
-    display: flex; 
-    flex-direction: column; 
-    align-items: flex-start;
-    padding: 10px 20px; 
+    text-align: center;
+    border-bottom: 2px;
+    padding: 20px 0px; 
 }
 
 h2 {
@@ -21,12 +28,7 @@ h2 {
     margin-top: 20px;
 }
 
-nav.menu {
-    text-align: center; 
-    width: 100%; 
-}
-
-ul {
+nav ul {
     list-style: none; 
     padding: 0; 
     margin: 0; 
@@ -34,18 +36,19 @@ ul {
     justify-content: center; 
 }
 
-li {
+nav ul li {
     margin: 0 15px; 
+    display: inline;
 }
 
-a {
+nav a {
     color: #61afef;
     text-decoration: none;
     padding: 10px; 
-    transition: color 0.3s; 
+    transition: color 0.3s ease-in-out; 
 }
 
-a:hover {
+nav a:hover {
     color: #4682B4;
 }
 
