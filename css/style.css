@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -15,17 +15,26 @@ body {
 }
 
 header {
-    text-align: center;
-    border-bottom: 2px;
-    padding: 20px 0px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding: 20px 0; 
+    position: relative; 
+    background-color: #1a1c1d; 
+    border-bottom: 2px solid transparent; 
 }
 
 h2 {
+    position: absolute; 
+    left: 20px; 
+    top: 20px; 
     color: #61afef;
     font-weight: 300;
     font-size: 28px; 
-    margin: 0;
-    margin-top: 20px;
+}
+
+nav {
+    margin-top: 10px;
 }
 
 nav ul {
@@ -38,14 +47,13 @@ nav ul {
 
 nav ul li {
     margin: 0 15px; 
-    display: inline;
 }
 
 nav a {
     color: #61afef;
     text-decoration: none;
     padding: 10px; 
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s ease-in-out;
 }
 
 nav a:hover {
@@ -64,6 +72,14 @@ main {
     color: whitesmoke;
     margin-top: 20px; 
     width: 100%;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px; 
+    padding: 20px; 
+    border-radius: 8px; 
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 h1 {
