@@ -2,6 +2,7 @@ body {
     background-color: #202123;
     width: 100vh;
 }
+
 h2 {
     font-family: "Poppins", sans-serif;
     color: #61afef;
@@ -9,7 +10,6 @@ h2 {
     font-style: normal;
     font-size: 17px;
     position: relative;
-    right: -10px;
 }
 
 header {
@@ -52,4 +52,15 @@ hr {
     filter: blur(0.9px);
     border-color: darkgray;
     opacity: 0.2;
+}
+
+main {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-style: normal;
+    margin-top: -30px;
+}
+
+h1 {
+    color: #61afef;
 }
