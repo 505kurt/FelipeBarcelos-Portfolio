@@ -3,7 +3,6 @@ function toggleDropdown() {
     dropdown.classList.toggle("show");
   }
 
-  // Fecha o dropdown se clicar fora dele
   window.onclick = function(event) {
     if (!event.target.closest('.button-dropdown')) {
       const dropdowns = document.querySelectorAll(".dropdown-content");
